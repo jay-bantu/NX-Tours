@@ -1,0 +1,19 @@
+{
+  "name": "nxtours",
+  "version": "1.0.0",
+  "description": "Nx Tours website purely html and css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-bantu/NX-Tours.git"
+  },
+  "author": "jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jay-bantu/NX-Tours/issues"
+  },
+  "homepage": "https://github.com/jay-bantu/NX-Tours#readme"
+}
