@@ -9,7 +9,8 @@
         transition: all .2s;
         border-radius: 10rem;
         position: relative;
-        font-size: 1.6rem;
+        font-size: $default-font-size;
+        transition:all .2s;
     
     }
     
@@ -31,8 +32,8 @@
     
     
     &--white{
-        background-color: $white;
-        color: $grey;
+        background-color: $color-white;
+        color: $color-grey;
         &::after{
             background-color: #fff;
             
@@ -64,3 +65,27 @@
     
 }
 
+.btn-text{
+    &:link,
+    &:visited{
+        color: $color-green-light;
+        display: inline-block;
+        text-decoration: none;
+        padding: 3px;
+        border-bottom: 3px $color-green-light;
+        font-size: $default-font-size;
+        transition:all .2s;
+    }
+    &:hover{
+        transform: translateY(-2px);
+        background-color:$color-green-dark;
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+        color: $color-white;
+    }
+    &:active{
+
+        transform: translateY(0px);
+        box-shadow: 0 1rem 2rem rgba($color-black, .15);
+
+    }
+}
