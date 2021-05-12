@@ -39,6 +39,14 @@
             
         }
     }
+    &--green{
+        background-color: $color-green-dark;
+        color: $color-grey;
+        &::after{
+            background-color: $color-green-light;
+            
+        }
+    }
     
     &::after{
         content: "";
